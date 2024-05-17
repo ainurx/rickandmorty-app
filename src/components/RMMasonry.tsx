@@ -22,7 +22,7 @@ function RMMasonry(){
     const fetchData = async () =>{
         try{
             const res = (await axios.get(`https://rickandmortyapi.com/api/character/?page=1`)).data.results
-            console.log(res)
+            
             setData(res)
         } catch(err){
             console.log(err)

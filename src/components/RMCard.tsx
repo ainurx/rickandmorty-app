@@ -15,7 +15,7 @@ function RMCard({
 }: DataProps){
 
     return(
-        <Card>
+        <Card className='card'>
             <div className="position-relative">
                 <CardMedia
                     component="img"

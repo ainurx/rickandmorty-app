@@ -1,9 +1,9 @@
-import { Typography } from "@mui/material"
+import Logo from '../assets/Rick-And-Morty-Logo.png'
 
 function Navbar(){
     return(
         <div className='navbar'>
-            <Typography>Rick and Morty</Typography>
+            <img src={Logo} alt='Rick & Morty'/>
         </div>
     )
 }
